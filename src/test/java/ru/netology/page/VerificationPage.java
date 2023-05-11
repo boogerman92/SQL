@@ -7,9 +7,9 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.page;
 
 public class VerificationPage {
-    @FindBy(css = "[data-test-id=code] input");
+    @FindBy(css = "[data-test-id=code] input")
     private SelenideElement codeField;
-    @FindBy(css = "[data-test-id=action-verify]");
+    @FindBy(css = "[data-test-id=action-verify]")
     private SelenideElement verifyButton;
     @FindBy(css = "[data-test-id='error-notification'")
     private SelenideElement errorNotification;
